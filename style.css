@@ -1,3 +1,6 @@
+html {
+  height: 100%;
+}
 #calculator {
   height: 500px;
   width: 300px;
@@ -25,15 +28,51 @@ body {
 .calc-button,
 .calc-button-num {
   box-shadow: 3px 3px 5px black;
-  width: 35px;
-  height: 28px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  
 }
 
 #subtract,
 #multiply,
 #divide,
 #plus,
-#clear,
+#clear {
+  height: 50px;
+  width: 50px;
+}
+
 #equals {
-  height: 35px;
+  height: 50px;
+  width: 212px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.center-equals {
+  padding-left: 44px;
+}
+
+.input {
+  padding-top: 40px;
+  padding-left: 44px;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  height: 80px;
+  width: 212px;
+  background-color: black;
+  box-shadow: 3px 3px 5px #1f7882;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Courier New", monospace;
 }
